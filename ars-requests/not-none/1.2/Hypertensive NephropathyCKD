@@ -1,0 +1,33 @@
+{
+  "edges": {
+    "e0": {
+      "constraints": [],
+      "knowledge_type": "inferred",
+      "object": "n0",
+      "predicates": [
+        "biolink:associated_with_decreased_likelihood_of"
+      ],
+      "subject": "n1"
+    }
+  },
+  "nodes": {
+    "n0": {
+      "categories": [
+        "biolink:Disease"
+      ],
+      "constraints": [],
+      "ids": [
+        "MONDO:0024633"
+      ],
+      "is_set": false,
+      "name": "hypertensive nephropathy"
+    },
+    "n1": {
+      "categories": [
+        "biolink:ChemicalSubstance"
+      ],
+      "constraints": [],
+      "is_set": false
+    }
+  }
+}
